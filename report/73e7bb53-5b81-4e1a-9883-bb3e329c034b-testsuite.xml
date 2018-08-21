@@ -1,0 +1,64 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1534837642104" stop="1534837642648">
+  <name>scripts.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1534837642104" status="passed" stop="1534837642280">
+      <name>TestLogin.test_login1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17924-MainThread"/>
+        <label name="host" value="LAPTOP-80Q9CB7O"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1534837642318" status="failed" stop="1534837642606">
+      <name>TestLogin.test_login2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x000002D964283358&gt;
+
+    def test_login2(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_login.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17924-MainThread"/>
+        <label name="host" value="LAPTOP-80Q9CB7O"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1534837642608" status="passed" stop="1534837642619">
+      <name>TestLogin.test_login3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17924-MainThread"/>
+        <label name="host" value="LAPTOP-80Q9CB7O"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1534837642643" status="passed" stop="1534837642648">
+      <name>TestLogin.test_login4</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17924-MainThread"/>
+        <label name="host" value="LAPTOP-80Q9CB7O"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
